@@ -1,0 +1,42 @@
+.container
+  %p
+    %strong streetNumber
+    = @unit.streetNumber
+
+  %p
+    %strong streetAddress
+    = @unit.streetAddress
+
+  %p
+    %strong unitNumber
+    = @unit.unitNumber
+
+  %p
+    %strong city
+    = @unit.city
+
+  %p
+    %strong stateProvince
+    = @unit.stateProvince
+
+  %p
+    %strong country
+    = @unit.country
+
+  %p
+    %strong zipPostal
+    = @unit.zipPostal
+
+  %h2 Reviews
+  - @reviews.each do |review|
+    - unless review.user.nil?
+      %p= review.title
+      %p
+        %strong
+          = review.user.first_name
+
+  - if user_signed_in?
+    %h2 Add a new review
+    = render "reviews/form"
+  - else
+    %p Sign in to post a review

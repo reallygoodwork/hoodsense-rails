@@ -1,0 +1,85 @@
+input,
+select,
+textarea,
+fieldset {
+	box-sizing: border-box;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 1.5rem;
+	font-family: inherit;
+	// -webkit-appearance: none;
+}
+
+input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week] {
+  height: 2.25rem;
+  padding: .5rem;
+  vertical-align: middle;
+  appearance: none;
+  border: 1px solid $border;
+  border-radius: 2px;
+  &:focus {
+  	outline: none;
+  }
+}
+
+.input-group {
+	margin-bottom: 1.8rem;
+	width: 100%;
+
+	label {
+		display: inline-block;
+		margin-bottom: 1rem;
+	}
+
+	.input-details {
+		margin-top: 0.5rem;
+		color: $grey;
+		font-size: 1.4rem;
+	}
+
+	.input-error {
+		color: $red;
+	}
+}
+
+.input-group--inline {
+
+	label {
+		margin-right: 1.5rem;
+		text-align: right;
+		width: 120px;
+		display: inline-block;
+	}
+
+	.input-ctrl {
+		display: inline-block;
+	}
+}
+
+.input-group--checkradio {
+	position: relative;
+
+	label {
+		margin-left: 20px;
+		margin-bottom: 0;
+	}
+
+	input[type=checkbox], input[type=radio] {
+		position: absolute;
+		left: 0;
+		top: 0.5em;
+	}
+}
+
+input.input-field {
+	min-width: 350px;
+	padding: 2.5rem 1.5rem;
+
+	&--full {
+		width: 100%;
+	}
+}
+
+label {
+	vertical-align: middle;
+}

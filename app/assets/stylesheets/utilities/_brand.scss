@@ -1,0 +1,28 @@
+$body-font: "GreycliffCF-Regular", sans-serif;
+$body-oblique-font: "GreycliffCF-RegularOblique", sans-serif;
+$headings-font: "GreycliffCF-ExtraBold", sans-serif;
+$body-weight: 400;
+$headings-weight: 700;
+
+$blue: #2726EA;
+$primary: $blue;
+$red: #FB2067;
+$error: $red;
+$green: #0ACFB2;
+$success: $green;
+$yellow: #FFBA00;
+$light: #F1F4F6;
+$border: #BAC4C9;
+$white: #ffffff;
+$grey: #697378;
+$gray: $grey;
+$black: #1C2023;
+
+.blue { color: $blue; }
+.red { color: $red; }
+.green { color: $green; }
+.yellow { color: $yellow; }
+.light { color: $light; }
+.white { color: $white; }
+.grey { color: $grey; }
+.gray { color: $grey; }

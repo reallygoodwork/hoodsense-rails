@@ -1,0 +1,43 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  unit: one
+  user: one
+  title: MyString
+  review: MyString
+  movedin: 
+  movedout: 
+  gas_included: false
+  gas_price: 1
+  hydro_included: false
+  hydro_price: 1
+  water_included: false
+  water_price: 1
+  pet_friendly: false
+  outdoor_space: false
+  laundry: false
+  laundry_cost: MyString
+  leaks: false
+  mice: false
+  concierge: false
+
+two:
+  unit: two
+  user: two
+  title: MyString
+  review: MyString
+  movedin: 
+  movedout: 
+  gas_included: false
+  gas_price: 1
+  hydro_included: false
+  hydro_price: 1
+  water_included: false
+  water_price: 1
+  pet_friendly: false
+  outdoor_space: false
+  laundry: false
+  laundry_cost: MyString
+  leaks: false
+  mice: false
+  concierge: false

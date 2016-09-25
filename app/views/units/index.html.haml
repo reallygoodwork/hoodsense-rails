@@ -1,0 +1,9 @@
+.container
+  %h1 All Units
+  .columns
+    - @units.each do |unit|
+      .card
+        .card-content
+          %p= unit.streetAddress
+          %p= unit.streetNumber
+          = link_to 'Show', unit_path(unit)

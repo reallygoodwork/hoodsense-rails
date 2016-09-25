@@ -1,0 +1,6 @@
+= form_for([@unit, @unit.reviews.build]) do |f|
+  .field
+    = f.label :title, class:'label'
+    = f.text_field :title, class: 'input'
+  .actions
+    = f.submit
